@@ -11,9 +11,5 @@ void Player::TakeDamage(int Damage) {
     std::cout << "Player took Damage" << std::endl;
 }
 
-void PlayerMovement() {
-    if () {
 
-    }
-}
 

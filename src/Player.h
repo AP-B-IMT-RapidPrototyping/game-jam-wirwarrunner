@@ -10,7 +10,10 @@
 class Player {
 public:
     int health = 3;
+    int Damage = 1;
 
     void TakeDamage(int Damage);
+
+
 };
 
