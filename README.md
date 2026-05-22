@@ -19,17 +19,19 @@ Je krijgt drie levens om jezelf te reden van "Game Over".
 ## Gameplay Mechanics
 
 ### Game Flow
-Vlotte gameplay dat wordt gereward door highlighted tegels te raken om punten te verzamelen.
+Je navigeert door een doolhof met efficiente bewegingen, om zoveel mogelijk afstand te creeren tussen het monster en jezelf.
 
 ### Game Feel
 
 ### Gameplay
-uitdagingen/puzzel structuur, doelen, play flow
 
-H
+De uitdaging is het creeren van space tussenin jezelf en het monster, er is geen tijd druk sinds het monster al genoeg druk op de speler zet.
+
+Het doel is om op het einde van het level te geraken om verder te gaan, door na hetvigeren van de doolhof.
 
 ### Mechanics
-Impliciete/expliciete spelregels, physics/actions/economy/etc.
 
 Je maakt gebruik van je arrow keys (up, down, left, right) om je door het doolhof te verplaatsen.
 Het doel is om aan het einde van de doolhof te geraken zonder gepakt te worden door het monster, je krijgt drie levens om aan het einde te geraken voor het level reset.
+
+Er verschijnen ook random highlighted tegels in het doolhof, door deze te verzamelen krijg je punten. 
