@@ -6,9 +6,15 @@ set(CMAKE_CXX_STANDARD 20)
 set(RAYLIB_VERSION 5.5)
 
 
-add_executable(examen_raylib main.cpp
+add_executable(examen_raylib src/main.cpp
         src/Grid.cpp
         src/Grid.h
+        src/Player.cpp
+        src/Player.h
+        src/Enemy.cpp
+        src/Enemy.h
+        test/grid_test.cpp
+        test/grid_test.h
 )
 
 include(FetchContent)
