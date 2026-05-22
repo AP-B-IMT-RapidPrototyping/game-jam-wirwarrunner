@@ -106,7 +106,7 @@ int main() {
 
     while (WindowShouldClose() == false) {
         BeginDrawing();
-        ClearBackground(DARKGREEN);
+        ClearBackground(BLACK);
 
         //Updating
         grid.Draw();
