@@ -3,12 +3,12 @@
 //
 
 #include "Player.h"
-#include <iostream>
 #include "raylib.h"
+#include <iostream>
 
 Player::Player() {
     row = 0;
-    colomn = 0;
+    column = 0;
 }
 
 void Player::TakeDamage(int Damage) {
@@ -39,7 +39,7 @@ void CurrentPosition() {
         Grid.Check;
 
         if (Grid.Check == true) {
-            colomn = colomn + 1;
+            column = column + 1;
         }
     }
 
@@ -47,7 +47,9 @@ void CurrentPosition() {
         Grid.Check;
 
         if (Grid.Check == true) {
-            colomn = colomn - 1;
+            column = column - 1;
         }
     }
 }
+
+image heart = LoadImage(Assets/pixel-heart.png);

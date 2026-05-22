@@ -15,7 +15,7 @@ public:
 
 private:
     int row;
-    int colomn;
+    int column;
 
 };
 
