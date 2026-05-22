@@ -2,14 +2,19 @@
 # Design Doc
 
 ## Naam
+WirwarRunner
 
 ## Summary
 een overzicht van het volledige spel.
 
 ## Genre
+Maze game
 
 ## Concept Pitch
-in 1-3 zinnen
+Een leuke maze game waar je onder druk van een monster dat je achtervolgt en je tot het einde moet geraken,
+al dit zonder geraakt te worden.
+
+Je krijgt drie levens om jezelf te reden van het einde.
 
 ## Gameplay Mechanics
 
