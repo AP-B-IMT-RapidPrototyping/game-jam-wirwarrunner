@@ -1,6 +1,6 @@
 #include <iostream>
 #include "raylib.h"
-#include "src/Grid.h"
+#include "src/grid.h"
 
 class Player {
 protected:
@@ -67,7 +67,7 @@ Player player;
 Enemy enemy;
 
 int main() {
-    Grid grid = Grid();
+    grid grid = grid();
     grid.Initialize();
     grid.Print();
     const int screen_width = 1280;
