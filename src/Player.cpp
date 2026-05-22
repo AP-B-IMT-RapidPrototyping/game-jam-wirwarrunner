@@ -17,39 +17,3 @@ void Player::TakeDamage(int Damage) {
     std::cout << "Player lost one life, You have " << health << " lives left." << std::endl;
 }
 
-
-void CurrentPosition() {
-    if (IsKeyDown(KEY_UP)) {
-        Grid.Check();
-
-        if (Grid.Check == true) {
-            row = row - 1;
-        }
-    }
-
-    if (IsKeyDown(KEY_DOWN)) {
-        Grid.Check();
-
-        if (Grid.Check == true) {
-            row = row + 1;
-        }
-    }
-
-    if (IsKeyDown(KEY_LEFT)) {
-        Grid.Check;
-
-        if (Grid.Check == true) {
-            column = column + 1;
-        }
-    }
-
-    if (IsKeyDown(KEY_RIGHT)) {
-        Grid.Check;
-
-        if (Grid.Check == true) {
-            column = column - 1;
-        }
-    }
-}
-
-image heart = LoadImage(Assets/pixel-heart.png);
