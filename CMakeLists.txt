@@ -8,7 +8,9 @@ set(RAYLIB_VERSION 5.5)
 
 add_executable(examen_raylib main.cpp
         src/Grid.cpp
-        src/Grid.h)
+        src/Grid.h
+        src/Player.h
+        src/Player.cpp)
 
 include(FetchContent)
 

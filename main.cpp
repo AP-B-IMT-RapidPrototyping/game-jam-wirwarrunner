@@ -1,5 +1,6 @@
 #include <iostream>
 #include "raylib.h"
+#include "src/Grid.h"
 
 class Player {
 protected:
@@ -45,21 +46,44 @@ public:
 
 class Enemy: public Player {
 public:
-    
+void Update(int player_y, int player_x) {
+    if (y + height/2 > player_y) {
+        y = y - speed;
+    }
+    if (y + height/2 <= player_y) {
+        y = y + speed;
+    }
+    if (x + height/2 > player_x) {
+        x = x - speed;
+    }
+    if (x + height/2 <= player_x) {
+        x = x + speed;
+    }
+    LimitMovement();
+}
 };
 
-int main() {
+Player player;
+Enemy enemy;
 
+int main() {
+    Grid grid = Grid();
+    grid.Initialize();
+    grid.Print();
     const int screen_width = 1280;
     const int screen_height = 800;
     InitWindow(screen_width, screen_height, "The WirWar Runner");
     SetTargetFPS(60);
 
 
+
+
     while (WindowShouldClose() == false) {
         BeginDrawing();
+        ClearBackground(WHITE);
 
         //Updating
+        grid.Draw();
 
         //Checking for collisions
 
