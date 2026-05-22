@@ -4,6 +4,7 @@
 
 #include "Player.h"
 #include <iostream>
+#include "raylib.h"
 
 Player::Player() {
     row = 0;
