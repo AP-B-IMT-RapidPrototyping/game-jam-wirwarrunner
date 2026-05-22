@@ -22,6 +22,7 @@ Je krijgt drie levens om jezelf te reden van "Game Over".
 Je navigeert door een doolhof met efficiente bewegingen, om zoveel mogelijk afstand te creeren tussen het monster en jezelf.
 
 ### Game Feel
+Het spel heeft een smooth game feel dankzij de goed volgende enemy die je tracked doorheen het doolhof, en de level transistion is zorgeloos zonder problemen.
 
 ### Gameplay
 
